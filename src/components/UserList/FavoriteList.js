@@ -4,7 +4,7 @@ import IconButton from "@material-ui/core/IconButton";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import * as S from "./style";
 
-const FavoritesList = ({ favorites, setFavorites}) => {
+const FavoriteList = ({ favorites, setFavorites}) => {
     const [ hoveredUserId, setHoveredUserId ] = useState();
 
     const handleMouseEnter = (index) => {
@@ -24,7 +24,6 @@ const FavoritesList = ({ favorites, setFavorites}) => {
         setFavorites({...favorites,[user.email]: user})
       }
     }
-    
     return (
             <S.UserList>
               <S.List>

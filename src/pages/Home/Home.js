@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import React  from "react";
 import Text from "components/Text";
 import UserList from "components/UserList";
 import { usePeopleFetch } from "hooks";
@@ -21,7 +21,7 @@ const Home = () => {
   }
 
   return (
-    // <S.Home>
+    <S.Home>
       <S.Content>
         <S.Header>
           <Text size="64px" bold>
@@ -37,7 +37,7 @@ const Home = () => {
         </S.Filters>
         <UserList users={users} isLoading={isLoading} favorites={favorites} setFavorites={setFavorites} setPageNum={setPageNum} />
       </S.Content>
-    // </S.Home>
+     </S.Home>
   );
 };
 

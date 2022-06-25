@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import React, { useState, useRef, useCallback } from "react";
 import Text from "components/Text";
 import Spinner from "components/Spinner";
 import IconButton from "@material-ui/core/IconButton";
@@ -9,12 +9,11 @@ import * as S from "./style";
 const UserList = ({ users, isLoading ,favorites, setFavorites, setPageNum}) => {
   
   const [ hoveredUserId, setHoveredUserId ] = useState();
+  
   const observer = useRef();
 
   const lastElementRef = useCallback(element => {
-    // if (isLoading){
-    //   return;
-    // }
+
     if (observer.current) {
       observer.current.disconnect();
     }
@@ -26,7 +25,7 @@ const UserList = ({ users, isLoading ,favorites, setFavorites, setPageNum}) => {
     if (element) {
       observer.current.observe(element)
     }
-  }, [  ])
+  }, [])
 
   const handleMouseEnter = (index) => {
     setHoveredUserId(index);

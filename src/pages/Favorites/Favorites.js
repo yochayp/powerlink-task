@@ -9,7 +9,7 @@ const Favorites = () => {
     const [ favorites, setFavorites ] = useLocalStorage("favorites");
 
     return(
-        <S.Home>
+    <S.Home>
         <S.Content>
             <S.Header>
             <Text size="64px" bold>
