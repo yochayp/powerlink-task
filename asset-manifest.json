@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/powerlink-task/static/js/main.83cb28ed.chunk.js",
-    "main.js.map": "/powerlink-task/static/js/main.83cb28ed.chunk.js.map",
+    "main.js": "/powerlink-task/static/js/main.5e10df45.chunk.js",
+    "main.js.map": "/powerlink-task/static/js/main.5e10df45.chunk.js.map",
     "runtime-main.js": "/powerlink-task/static/js/runtime-main.23c2ddd8.js",
     "runtime-main.js.map": "/powerlink-task/static/js/runtime-main.23c2ddd8.js.map",
     "static/js/2.16738d16.chunk.js": "/powerlink-task/static/js/2.16738d16.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.23c2ddd8.js",
     "static/js/2.16738d16.chunk.js",
-    "static/js/main.83cb28ed.chunk.js"
+    "static/js/main.5e10df45.chunk.js"
   ]
 }
